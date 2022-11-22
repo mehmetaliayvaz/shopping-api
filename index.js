@@ -3,6 +3,8 @@ const products = require("./products.js")
 
 const server = express();
 
+const port = process.env.PORT || 5000;
+
 server.get('/', (req, res) => {
   res.send('Hello World');
 });
@@ -21,6 +23,7 @@ server.get("/products/:id", (req, res) => {
   }
 })
 
-server.listen(5000, () => {
-  console.log('Server running on port 5000');
+
+server.listen(port, () => {
+  console.log(`Server running on port ${port}`);
 });
