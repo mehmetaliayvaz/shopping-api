@@ -1,5 +1,7 @@
 const express = require("express");
-const products = require("./products.js")
+const products = require("./products.js");
+
+var cors = require('cors');
 
 const server = express();
 
@@ -9,11 +11,11 @@ server.get('/', (req, res) => {
   res.send('Hello World');
 });
 
-server.get("/products", (req, res) => {
+server.get("/products", cors(), (req, res) => {
   res.status(200).json(products);
 })
 
-server.get("/products/:id", (req, res) => {
+server.get("/products/:id", cors(), (req, res) => {
   const { id } = req.params;
   const product = products.find(product => product.id === parseInt(id));
   if (product) {
