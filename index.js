@@ -25,6 +25,16 @@ server.get("/products/:id", cors(), (req, res) => {
   }
 })
 
+server.get("/products/category/:category", cors(), (req, res) => {
+  const { category } = req.params;
+  const product = products.find(product => product.category == category);
+  if (product) {
+    res.status(200).json(product);
+  } else {
+    res.status(404).json({ message: "Product not found" });
+  }
+})
+
 
 server.listen(port, () => {
   console.log(`Server running on port ${port}`);
