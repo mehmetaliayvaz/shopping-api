@@ -18,12 +18,16 @@ app.get("/products", (req, res) => {
 })
 
 app.get("/products/:id", (req, res) => {
-  const { id } = req.params;
-  const product = products.find(product => product.id === parseInt(id));
-  if (product) {
-    res.status(200).json(product);
-  } else {
-    res.status(404).json({ message: "Product not found" });
+  try {
+    const { id } = req.params;
+    const product = products.find(product => product.id === parseInt(id));
+    if (product) {
+      res.status(200).json(product);
+    } else {
+      res.status(404).json({ message: "Product not found" });
+    }
+  } catch (error) {
+    res.status(403).json({ message: error.message })
   }
 })
 
