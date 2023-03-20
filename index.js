@@ -14,8 +14,8 @@ app.get("/", (req, res) => {
   res.write(`<h1><a href="/products">Shopping API</a></h1>`);
   res.write(`
     <ul>
-      <li>Ürünler - /products</li>
-      <li>Ürün - /products/:id</li>
+      <li>Products - /products</li>
+      <li>Product - /products/:id</li>
       <li>Category - /products/category/:category</li>
       <li>Search - /products/search/:search</li>
     </ul>
