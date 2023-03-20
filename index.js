@@ -9,6 +9,8 @@ app.use("/products", products);
 
 const port = process.env.PORT || 5001;
 
+app.use("/public", express.static("public"));
+
 app.get("/", (req, res) => {
   res.writeHead(200, { "content-type": "text/html; charset=utf-8" });
   res.write(`<h1><a href="/products">Shopping API</a></h1>`);
