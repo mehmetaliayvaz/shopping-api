@@ -4,7 +4,16 @@ import products from "../products.js";
 const router = express.Router();
 
 router.get("/", (req, res) => {
-  res.status(200).json(products);
+  if (req.query.page) {
+    const page = req.query.page;
+    const limit = 7;
+    const startIndex = (page - 1) * limit;
+    const endIndex = page * limit;
+    const results = products.slice(startIndex, endIndex);
+    res.status(200).json(results);
+  } else {
+    res.status(200).json(products);
+  }
 });
 
 router.get("/:id", (req, res) => {
