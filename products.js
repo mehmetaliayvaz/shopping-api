@@ -169,4 +169,147 @@ export default [
       "https://shopping-api-ten.vercel.app/public/img/13-2.jpg",
     ],
   },
+  {
+    id: 14,
+    title: `Push Pop Bubble Popit Silikon Stress Oyuncağı Pop It Gökkuşağı Renk Kare Push Pop Bubble Fidget Tiktok 13 x 13 cm`,
+    category: "hobi",
+    price: 29,
+    description: `Popit Silikon Stress Oyuncağı Pop It Gökkuşağı Renk Kare Push Pop Bubble Fidget
+    Silikon materyalden üretilmiştir.
+    Kare model
+    Stres oyuncağı
+    13x13cm`,
+    images: ["https://shopping-api-ten.vercel.app/public/img/14-1.jpg"],
+  },
+  {
+    id: 15,
+    title: `Pi İthalat Zeka Küpü Sihirli Rubik Pi İthalat`,
+    category: "hobi",
+    price: 49,
+    description: `Zeka Küpü Sihirli Rubik ; Geleceğin dahi beyinlerine güzel bir meşgale Sihirli Rubik Zeka Küpü !
+
+    Oyuncaktan çok öte zeka ve sabrı arttıran bir buluş !
+    
+    3 yaş ve üzeri için uygundur.`,
+    images: [
+      "https://shopping-api-ten.vercel.app/public/img/15-1.jpg",
+      "https://shopping-api-ten.vercel.app/public/img/15-2.jpg",
+    ],
+  },
+  {
+    id: 16,
+    title: `NeUygun Oyuncak Buz Kırma Oyunu, Buz Küpleri Zeka Mantık ve Strateji Oyunu`,
+    category: "hobi",
+    price: 80,
+    description: `NeUygun Oyuncak Buz Kırma Oyunu, Buz Küpleri Zeka Mantık ve Strateji Oyunu
+
+    ·        El-Göz koordinasyonunu arttıran, görsel algı kabiliyetini geliştiren bir oyundur.
+    ·        Kutu içerisinde 38 Adet Buz Küpü, 2 Adet Çekiç, Bir Adet At, 1 Adet Oyun Çerçevesi, 4 Adet Oyun Çerçevesi Ayağı bulunmaktadır.`,
+    images: [
+      "https://shopping-api-ten.vercel.app/public/img/16-1.jpg",
+      "https://shopping-api-ten.vercel.app/public/img/16-2.jpg",
+    ],
+  },
+  {
+    id: 17,
+    title: `Bizim Gıda Erzak Kolisi 16 Çeşit`,
+    category: "supermarket",
+    price: 379,
+    description: `Bizim Gıda Erzak Kolisi 16 Çeşit`,
+    images: ["https://shopping-api-ten.vercel.app/public/img/17-1.jpg"],
+  },
+  {
+    id: 18,
+    title: `adidas Vs Pace Erkek Spor Ayakkabı B74494`,
+    category: "spor",
+    price: 999,
+    description: `
+    Yalın tasarımlı bileksiz ayakkabının dış tarafında; 3 bant detayı bulunur. İç tarafında, perfore 3 bant ile tamamlanır.`,
+    images: [
+      "https://shopping-api-ten.vercel.app/public/img/18-1.jpg",
+      "https://shopping-api-ten.vercel.app/public/img/18-2.jpg",
+      "https://shopping-api-ten.vercel.app/public/img/18-3.jpg",
+    ],
+  },
+  {
+    id: 19,
+    title: `Voit V-Fıt By Voıt Runmate Koşu Bandı`,
+    category: "spor",
+    price: 6999,
+    description: `Voit V-Fıt By Voıt Runmate Koşu Bandı`,
+    images: [
+      "https://shopping-api-ten.vercel.app/public/img/19-1.jpg",
+      "https://shopping-api-ten.vercel.app/public/img/19-2.jpg",
+    ],
+  },
+  {
+    id: 20,
+    title: `İpek Mobilya Majör 3'lü Kanepe ( Koyu Gri )`,
+    category: "ev-mobilya",
+    price: 5416,
+    description: `Kumaş içeriği
+    Kalite döşemelik kumaş kullanılmıştır.
+    Kartela : Resimde görüldüğü gibi kanepe Koyu Gri renktir.
+    Ürün Fonksiyonu : 3'lü kanepe metal iskeletli , makaslı ,sandıklı ve yataklıdır.
+    Oturum yumuşaklığı : 3lü kanepede oturum ve sırt kısmında yüksek kalitede çelik telden imal edilen bonel yay kullanılmıştır.`,
+    images: [
+      "https://shopping-api-ten.vercel.app/public/img/20-1.jpg",
+      "https://shopping-api-ten.vercel.app/public/img/20-2.jpg",
+      "https://shopping-api-ten.vercel.app/public/img/20-3.jpg",
+    ],
+  },
+  {
+    id: 21,
+    title: `Güral Porselen Atina 12 Parça 4 Kişilik Bone Yemek Takımı - Gümüş`,
+    category: "zuccaciye-mutfak",
+    price: 833,
+    description: `Sadeliğin kusursuz hali!
+    Türkiye'de İlk kez Güral Porselen tarafından üretimi gerçekleştirilen şeffaf, dayanıklı, ışık geçirgen ve son derece zarif krem rengi bone porselen ürünlerin şimdi de küçük bir takımı, mükemmel sunumlarınız için yeniden tasarlandı…`,
+    images: [
+      "https://shopping-api-ten.vercel.app/public/img/21-1.jpg",
+      "https://shopping-api-ten.vercel.app/public/img/21-2.jpg",
+      "https://shopping-api-ten.vercel.app/public/img/21-3.jpg",
+    ],
+  },
+  {
+    id: 22,
+    title: `JUMP 26776 Beyaz Siyah Kadın Günlük Rahat Kalın Tabanlı Yürüyüş Koşu Sneaker Spor Ayakkabı`,
+    category: "ayakkabi-canta",
+    price: 450,
+    description: `Moda trendlerini takip eden jump kadın sneaker ayakkabılar iş, okul, günlük kullanımların yanı sıra koşu, tempolu yürüyüş, basketbol ve antrenman gibi senaryolar için de ideal seçimdir. İş toplantıları sırasında size güven artışı sağlayacak kadar klas ve kararsız kıyafet günleri için sizi kurtaracak kadar şıklar.`,
+    images: [
+      "https://shopping-api-ten.vercel.app/public/img/22-1.jpg",
+      "https://shopping-api-ten.vercel.app/public/img/22-2.jpg",
+      "https://shopping-api-ten.vercel.app/public/img/22-3.jpg",
+    ],
+  },
+  {
+    id: 23,
+    title: `Commes Erkek Kol Saati Renkli Cam Crono Tüm Fonksiyonlar Aktif Bileklik Hediyeli ZMCMS015`,
+    category: "saat-aksesuar",
+    price: 869,
+    description: ` Commes Erkek Kol Saati • Tüm Fonksiyonlar Aktif• Çelik Kordon• Çelik Kasa• Ürünümüz 3atm Su Geçirmezliğe Dayanıklıdır• Havuz, Deniz ve Duş için Uygun Değildir• Tüm Ürünlerimiz Güvenceli ve Faturalıdır •  Tüm Siparişler Hediye Paketi ile Gönderilir.• Ürün Faturaları Mail Adresinize Gönderilmektedir.• Kullanılmış Ürünler İade Seçeneği Bulunmamaktadır• İade Oluşturulmuş Ürünlerde Ürün İle Gönderilen Tüm Aksesuarlar Eksiksiz Şekilde Gönderilmelidir. (Kutu, Çanta, Koruma Ambalajı)5`,
+    images: [
+      "https://shopping-api-ten.vercel.app/public/img/23-1.jpg",
+      "https://shopping-api-ten.vercel.app/public/img/23-2.jpg",
+      "https://shopping-api-ten.vercel.app/public/img/23-3.jpg",
+    ],
+  },
+  {
+    id: 24,
+    title: `Harry Potter ve Felsefe Taşı - Slytherin 20. Yıl Özel Baskısı - J. K. Rowling`,
+    category: "kitap",
+    price: 74,
+    description: `Harry Potter ve Felsefe Taşı - Slytherin 20. Yıl Özel Baskısı - J. K. Rowling
+
+
+    BİNA RENKLERİNİZİ GURURLA TAŞIYIN
+    
+    Bu Slytherin baskısı Harry Potter ve Felsefe Taşı’nın ilk kez yayımlanmasının üzerinden 20 yıl geçmesinin onuruna yayımlanmaktadır.`,
+    images: [
+      "https://shopping-api-ten.vercel.app/public/img/24-1.jpg",
+      "https://shopping-api-ten.vercel.app/public/img/24-2.jpg",
+      "https://shopping-api-ten.vercel.app/public/img/24-3.jpg",
+    ],
+  },
 ];
